@@ -165,6 +165,9 @@ header h2 {
   visibility: hidden;
   font-size: 1.35rem;
 }
+.chat-input textarea:focus {
+  outline: 1px solid #724ae8;
+}
 .chat-input textarea:valid ~ span {
   visibility: visible;
 }
